@@ -4,7 +4,8 @@
   "description": "",
   "main": "async.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/xEfraM7/practica/issues"
   },
-  "homepage": "https://github.com/xEfraM7/practica#readme"
+  "homepage": "https://github.com/xEfraM7/practica#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type":"module"
 }
